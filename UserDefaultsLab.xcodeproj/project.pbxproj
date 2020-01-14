@@ -15,6 +15,10 @@
 		13A1BF8923CD05C300E5CF59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A1BF8723CD05C300E5CF59 /* LaunchScreen.storyboard */; };
 		13A1BF9223CD065400E5CF59 /* ImageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 13A1BF9123CD065400E5CF59 /* ImageKit */; };
 		13A1BF9423CD0C7C00E5CF59 /* SignsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A1BF9323CD0C7B00E5CF59 /* SignsTableViewController.swift */; };
+		13A1BF9823CD172900E5CF59 /* PickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A1BF9723CD172900E5CF59 /* PickerVC.swift */; };
+		13A1BF9A23CD292F00E5CF59 /* HoroscopeAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A1BF9923CD292F00E5CF59 /* HoroscopeAPIClient.swift */; };
+		13A1BF9C23CD29A800E5CF59 /* SignsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A1BF9B23CD29A800E5CF59 /* SignsModel.swift */; };
+		13A1BFA023CD31C300E5CF59 /* DetailedSignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A1BF9F23CD31C300E5CF59 /* DetailedSignViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		13A1BF8823CD05C300E5CF59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13A1BF8A23CD05C300E5CF59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13A1BF9323CD0C7B00E5CF59 /* SignsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignsTableViewController.swift; sourceTree = "<group>"; };
+		13A1BF9723CD172900E5CF59 /* PickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerVC.swift; sourceTree = "<group>"; };
+		13A1BF9923CD292F00E5CF59 /* HoroscopeAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeAPIClient.swift; sourceTree = "<group>"; };
+		13A1BF9B23CD29A800E5CF59 /* SignsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignsModel.swift; sourceTree = "<group>"; };
+		13A1BF9F23CD31C300E5CF59 /* DetailedSignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedSignViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +71,11 @@
 				13A1BF7C23CD05C000E5CF59 /* AppDelegate.swift */,
 				13A1BF7E23CD05C000E5CF59 /* SceneDelegate.swift */,
 				13A1BF8023CD05C000E5CF59 /* InitialVC.swift */,
+				13A1BF9B23CD29A800E5CF59 /* SignsModel.swift */,
+				13A1BF9923CD292F00E5CF59 /* HoroscopeAPIClient.swift */,
 				13A1BF9323CD0C7B00E5CF59 /* SignsTableViewController.swift */,
+				13A1BF9723CD172900E5CF59 /* PickerVC.swift */,
+				13A1BF9F23CD31C300E5CF59 /* DetailedSignViewController.swift */,
 				13A1BF8223CD05C000E5CF59 /* Main.storyboard */,
 				13A1BF8523CD05C300E5CF59 /* Assets.xcassets */,
 				13A1BF8723CD05C300E5CF59 /* LaunchScreen.storyboard */,
@@ -149,10 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13A1BF9823CD172900E5CF59 /* PickerVC.swift in Sources */,
 				13A1BF9423CD0C7C00E5CF59 /* SignsTableViewController.swift in Sources */,
 				13A1BF8123CD05C000E5CF59 /* InitialVC.swift in Sources */,
 				13A1BF7D23CD05C000E5CF59 /* AppDelegate.swift in Sources */,
 				13A1BF7F23CD05C000E5CF59 /* SceneDelegate.swift in Sources */,
+				13A1BF9A23CD292F00E5CF59 /* HoroscopeAPIClient.swift in Sources */,
+				13A1BFA023CD31C300E5CF59 /* DetailedSignViewController.swift in Sources */,
+				13A1BF9C23CD29A800E5CF59 /* SignsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
